@@ -1,0 +1,47 @@
+name: e_shop
+description: Flutter eCommerce App using Firebase Firestore from Coding Cafe
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  cloud_firestore: ^2.5.4
+  firebase_auth: ^3.1.4
+  shared_preferences: ^2.0.8
+  fluttertoast: ^8.0.8
+  image_picker: ^0.8.4+4
+  firebase_storage: ^10.0.6
+  flutter_staggered_grid_view: ^0.4.1
+  provider: ^6.0.1
+  path_provider: ^2.0.6
+  image: ^3.0.8
+  intl:
+  firebase_core: ^1.8.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Signatra
+      fonts:
+        - asset: assets/fonts/Signatra.ttf
+
+  assets:
+    - images/welcome.png
+    - images/login.png
+    - images/admin.png
+    - images/cash.png
+
+
+
